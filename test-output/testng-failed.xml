@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="functionalTesting.DashboardTest">
+        <methods>
+          <include name="tc_015_verifyEmployeeSubUnitsDisplayed"/>
+          <include name="tc_008_verifySidebarToggle"/>
+          <include name="tc_002_verifyDashboardHeader"/>
+          <include name="tc_014_verifyTimeClockIconEnabled"/>
+          <include name="tc_017_verifyUpgradeButtonDisplayed"/>
+          <include name="tc_012_verifyMyActionsLinksDisplayed"/>
+          <include name="tc_003_verifyMenuTabsDisplayed"/>
+          <include name="tc_006_verifyDashboardWidgets"/>
+          <include name="tc_005_verifyLogoutFunctionality"/>
+          <include name="postcondition"/>
+          <include name="tc_013_verifyQuickLaunchCardsEnabled"/>
+          <include name="tc_016_verifyEmployeeLocationsDisplayed"/>
+          <include name="tc_010_verifyHelpIconDisplayed"/>
+          <include name="tc_004_verifyProfileDropdownOptions"/>
+          <include name="tc_011_verifyDashboardFooter"/>
+          <include name="tc_001_verifyDashboardUrl"/>
+          <include name="precondition"/>
+          <include name="tc_007_verifySearchTabEnabled"/>
+          <include name="tc_009_verifyQuickLaunchOptions"/>
+        </methods>
+      </class> <!-- functionalTesting.DashboardTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
