@@ -3,29 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="functionalTesting.DashboardTest">
+      <class name="functionalTesting.AdminTest">
         <methods>
-          <include name="tc_015_verifyEmployeeSubUnitsDisplayed"/>
-          <include name="tc_008_verifySidebarToggle"/>
-          <include name="tc_002_verifyDashboardHeader"/>
-          <include name="tc_014_verifyTimeClockIconEnabled"/>
-          <include name="tc_017_verifyUpgradeButtonDisplayed"/>
-          <include name="tc_012_verifyMyActionsLinksDisplayed"/>
-          <include name="tc_003_verifyMenuTabsDisplayed"/>
-          <include name="tc_006_verifyDashboardWidgets"/>
-          <include name="tc_005_verifyLogoutFunctionality"/>
-          <include name="postcondition"/>
-          <include name="tc_013_verifyQuickLaunchCardsEnabled"/>
-          <include name="tc_016_verifyEmployeeLocationsDisplayed"/>
-          <include name="tc_010_verifyHelpIconDisplayed"/>
-          <include name="tc_004_verifyProfileDropdownOptions"/>
-          <include name="tc_011_verifyDashboardFooter"/>
-          <include name="tc_001_verifyDashboardUrl"/>
           <include name="precondition"/>
-          <include name="tc_007_verifySearchTabEnabled"/>
-          <include name="tc_009_verifyQuickLaunchOptions"/>
+          <include name="postcondition"/>
+          <include name="tc_003_verifyAdminMenus"/>
         </methods>
-      </class> <!-- functionalTesting.DashboardTest -->
+      </class> <!-- functionalTesting.AdminTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

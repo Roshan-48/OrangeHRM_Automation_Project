@@ -35,6 +35,21 @@ public class ExcelUtility {
 		   fis.close();
 		   return obj;
 	}
+	
+	 @DataProvider(name = "usernameData")
+	 public Object[][] adminUsernameData() throws EncryptedDocumentException, IOException {
+	     FileInputStream fis = new FileInputStream(".\\src\\test\\resources\\OrangeHRMTestCases.xlsx");
+	     Workbook wb = WorkbookFactory.create(fis);
+	     Sheet sh = wb.getSheet("AdminTestData");
+	     int row = sh.getPhysicalNumberOfRows();
+	     Object[][] obj = new Object[row - 1][1];
+	     for (int i = 1; i < row; i++) {
+	         obj[i - 1][0] = sh.getRow(i).getCell(0).toString();
+	     }
+	     wb.close();
+	     fis.close();
+	     return obj;
+	 }
 }
 
 

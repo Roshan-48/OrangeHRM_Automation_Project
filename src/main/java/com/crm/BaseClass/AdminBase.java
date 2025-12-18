@@ -17,7 +17,7 @@ import com.crm.Pom.Dashboard;
 import com.crm.Pom.Login;
 
 public class AdminBase {
-
+	
     public static WebDriver driver;
 
     @BeforeMethod
@@ -38,7 +38,7 @@ public class AdminBase {
         } else {
             driver = new ChromeDriver();
         }
-
+        DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get(url);
@@ -56,6 +56,7 @@ public class AdminBase {
     @AfterMethod
     public void postcondition() {
         driver.quit();
+        DriverManager.unload();
     }
 }
 

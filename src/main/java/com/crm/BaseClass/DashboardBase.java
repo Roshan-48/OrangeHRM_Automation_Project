@@ -34,6 +34,7 @@ public class DashboardBase {
 			else {
 				driver = new ChromeDriver();
 			}
+	        DriverManager.setDriver(driver);
 	     driver.manage().window().maximize();
 	     driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 	     driver.get(ReadFile.propertiesFile("url"));
@@ -48,5 +49,6 @@ public class DashboardBase {
 	@AfterMethod
 	public void postcondition() {
 	    driver.quit();
+	    DriverManager.unload();
 	}
 }

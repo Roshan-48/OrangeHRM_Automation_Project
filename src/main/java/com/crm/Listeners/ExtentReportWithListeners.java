@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -15,17 +16,18 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import com.crm.BaseClass.LoginBase;
+import com.crm.BaseClass.DriverManager;
 
-public class ExtentReportWithListeners extends LoginBase implements ITestListener{
+public class ExtentReportWithListeners implements ITestListener{
 	public static ExtentSparkReporter spark;
 	public static ExtentReports report;
 	public static ExtentTest test;
 	@Override
 	public void onTestStart(ITestResult result) {
-		String name = result.getMethod().getMethodName();
-		Reporter.log(name+" is onTestStart",true);
-		test = report.createTest(name);
+		String className = result.getTestClass().getName();
+		String methodName = result.getMethod().getMethodName();
+		Reporter.log(methodName+" is onTestStart",true);
+		test = report.createTest(className+" :: "+methodName);
 	}
 
 	@Override
@@ -39,43 +41,19 @@ public class ExtentReportWithListeners extends LoginBase implements ITestListene
 		String date = LocalDateTime.now().toString().replace(':', '-');
 		String name = result.getMethod().getMethodName();
 		String dynamicName = name+date;
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		 WebDriver driver = DriverManager.getDriver();
+		if(driver!=null) {
+			 try {
+					TakesScreenshot ts = (TakesScreenshot) driver;
+					 String from = ts.getScreenshotAs(OutputType.BASE64);
+					 test.addScreenCaptureFromBase64String(from);
+				 } catch (WebDriverException e) {
+					test.log(Status.WARNING, "Screenshot failed: " + e.getMessage());
+				 }
+		}else {
+			test.log(Status.WARNING, "Driver was null, screenshot skipped");
 		}
-		 TakesScreenshot ts = (TakesScreenshot) driver;
-	      String from = ts.getScreenshotAs(OutputType.BASE64);
-	      test.addScreenCaptureFromBase64String(from);
-	      test.log(Status.FAIL, name+" is fail");
-	
-//		    test.log(Status.FAIL, result.getMethod().getMethodName() + " FAILED");
-//		    test.log(Status.FAIL, result.getThrowable());
-//		    WebDriver localDriver = null;
-//		    try {
-//		        Object testClass = result.getInstance();
-//		        localDriver = (WebDriver) testClass
-//		                .getClass()
-//		                .getSuperclass()
-//		                .getDeclaredField("driver")
-//		                .get(testClass);
-//		    } catch (Exception e) {
-//		        test.log(Status.WARNING, "Unable to fetch driver");
-//		        return;
-//		    }
-//		    if (localDriver == null) {
-//		        test.log(Status.WARNING, "Driver is null, screenshot skipped");
-//		        return;
-//		    }
-//		    try {
-//		        localDriver.getTitle(); 
-//		        TakesScreenshot ts = (TakesScreenshot) localDriver;
-//		        String base64 = ts.getScreenshotAs(OutputType.BASE64);
-//		        test.addScreenCaptureFromBase64String(base64);
-//		    } catch (Exception e) {
-//		        test.log(Status.WARNING, "Session closed, screenshot skipped");
-//		 }
+	     test.log(Status.FAIL, name+" is fail");
 	}
 	
 	@Override
@@ -96,7 +74,7 @@ public class ExtentReportWithListeners extends LoginBase implements ITestListene
 		report.setSystemInfo("OS", "Windows 11");
 		report.setSystemInfo("Browser", "Chrome");
 		report.attachReporter(spark);
-	}
+	}	
 
 	@Override
 	public void onFinish(ITestContext context) {

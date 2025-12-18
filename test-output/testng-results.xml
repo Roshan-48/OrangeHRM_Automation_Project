@@ -1,339 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="17" passed="0" failed="0" skipped="17">
+<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[onStart]]>
     </line>
     <line>
-      <![CDATA[tc_001_verifyDashboardUrl is onTestStart]]>
+      <![CDATA[tc_001_verifyAdminPageLoaded is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_002_verifyDashboardHeader is onTestStart]]>
+      <![CDATA[tc_002_verifyMainMenuNavigation is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_003_verifyMenuTabsDisplayed is onTestStart]]>
+      <![CDATA[tc_003_verifyAdminMenus is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_004_verifyProfileDropdownOptions is onTestStart]]>
+      <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_005_verifyLogoutFunctionality is onTestStart]]>
+      <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_006_verifyDashboardWidgets is onTestStart]]>
+      <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_007_verifySearchTabEnabled is onTestStart]]>
+      <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_008_verifySidebarToggle is onTestStart]]>
+      <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_009_verifyQuickLaunchOptions is onTestStart]]>
+      <![CDATA[tc_005_searchUserByUserRole is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_010_verifyHelpIconDisplayed is onTestStart]]>
+      <![CDATA[tc_006_searchUserByEmployeeName is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_011_verifyDashboardFooter is onTestStart]]>
+      <![CDATA[tc_007_searchUserByStatus is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_012_verifyMyActionsLinksDisplayed is onTestStart]]>
+      <![CDATA[tc_008_combinedSearchUserRoleAndStatus is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_013_verifyQuickLaunchCardsEnabled is onTestStart]]>
+      <![CDATA[tc_009_verifyResetButton is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_014_verifyTimeClockIconEnabled is onTestStart]]>
+      <![CDATA[tc_010_verifyAddUserNavigation is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_015_verifyEmployeeSubUnitsDisplayed is onTestStart]]>
+      <![CDATA[tc_011_verifyTableHeaderCheckbox is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_016_verifyEmployeeLocationsDisplayed is onTestStart]]>
+      <![CDATA[tc_012_verifyEditFirstRecord is onTestStart]]>
     </line>
     <line>
-      <![CDATA[tc_017_verifyUpgradeButtonDisplayed is onTestStart]]>
+      <![CDATA[tc_013_verifyDeleteCancelFlow is onTestStart]]>
     </line>
     <line>
-      <![CDATA[onFinish]]>
+      <![CDATA[tc_014_verifyDeleteConfirmFlow is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_015_verifyProfileDropdownOptions is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_016_verifyHelpButton is onTestStart]]>
+    </line>
+    <line>
+      <![CDATA[tc_019_verifyFooterText is onTestStart]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-17T23:18:24 IST" name="Default suite" finished-at="2025-12-17T23:18:27 IST" duration-ms="2873">
+  <suite started-at="2025-12-18T13:44:52 IST" name="Default suite" finished-at="2025-12-18T13:50:04 IST" duration-ms="312781">
     <groups>
     </groups>
-    <test started-at="2025-12-17T23:18:24 IST" name="Default test" finished-at="2025-12-17T23:18:27 IST" duration-ms="2873">
-      <class name="functionalTesting.DashboardTest">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:24 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="2245" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+    <test started-at="2025-12-18T13:44:52 IST" name="Default test" finished-at="2025-12-18T13:50:04 IST" duration-ms="312781">
+      <class name="functionalTesting.AdminTest">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:44:52 IST" name="precondition" finished-at="2025-12-18T13:45:05 IST" duration-ms="12830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_001_verifyDashboardUrl()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_001_verifyDashboardUrl" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_001_verifyAdminPageLoaded()[pri:1, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:05 IST" name="tc_001_verifyAdminPageLoaded" finished-at="2025-12-18T13:45:05 IST" duration-ms="586" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_002_verifyDashboardHeader is onTestStart]]>
+              <![CDATA[tc_001_verifyAdminPageLoaded is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_001_verifyDashboardUrl -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_001_verifyAdminPageLoaded -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:05 IST" name="postcondition" finished-at="2025-12-18T13:45:06 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:06 IST" name="precondition" finished-at="2025-12-18T13:45:20 IST" duration-ms="14627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_002_verifyDashboardHeader()[pri:1, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_002_verifyDashboardHeader" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_002_verifyMainMenuNavigation()[pri:2, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:20 IST" name="tc_002_verifyMainMenuNavigation" finished-at="2025-12-18T13:45:30 IST" duration-ms="9686" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_003_verifyMenuTabsDisplayed is onTestStart]]>
+              <![CDATA[tc_002_verifyMainMenuNavigation is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_002_verifyDashboardHeader -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_002_verifyMainMenuNavigation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:30 IST" name="postcondition" finished-at="2025-12-18T13:45:30 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:30 IST" name="precondition" finished-at="2025-12-18T13:45:44 IST" duration-ms="13541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_003_verifyMenuTabsDisplayed()[pri:2, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_003_verifyMenuTabsDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="tc_003_verifyAdminMenus()[pri:3, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:45:44 IST" name="tc_003_verifyAdminMenus" finished-at="2025-12-18T13:46:15 IST" duration-ms="30844" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Nationalities']' (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[text()='Nationalities']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
+at functionalTesting.AdminTest.tc_003_verifyAdminMenus(AdminTest.java:43)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -356,1140 +144,356 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Nationalities']"}
+  (Session info: chrome=143.0.7499.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bbecd7a8412b789a48c99d81b0d89b21, findElement {using=xpath, value=//span[text()='Nationalities']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58899}, goog:processID: 23220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58899/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbecd7a8412b789a48c99d81b0d89b21
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 28 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
             <line>
-              <![CDATA[tc_004_verifyProfileDropdownOptions is onTestStart]]>
+              <![CDATA[tc_003_verifyAdminMenus is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_003_verifyMenuTabsDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_003_verifyAdminMenus -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:15 IST" name="postcondition" finished-at="2025-12-18T13:46:15 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:16 IST" name="precondition" finished-at="2025-12-18T13:46:29 IST" duration-ms="13237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_004_verifyProfileDropdownOptions()[pri:3, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_004_verifyProfileDropdownOptions" finished-at="2025-12-17T23:18:27 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_004_searchUserByUsername(java.lang.String)[pri:4, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:29 IST" name="tc_004_searchUserByUsername" data-provider="usernameData" finished-at="2025-12-18T13:46:30 IST" duration-ms="985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_005_verifyLogoutFunctionality is onTestStart]]>
+              <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_004_verifyProfileDropdownOptions -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_004_searchUserByUsername -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:30 IST" name="postcondition" finished-at="2025-12-18T13:46:30 IST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:30 IST" name="precondition" finished-at="2025-12-18T13:46:40 IST" duration-ms="9521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_005_verifyLogoutFunctionality()[pri:4, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_005_verifyLogoutFunctionality" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_004_searchUserByUsername(java.lang.String)[pri:4, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:40 IST" name="tc_004_searchUserByUsername" data-provider="usernameData" finished-at="2025-12-18T13:46:41 IST" duration-ms="998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roshan]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_006_verifyDashboardWidgets is onTestStart]]>
+              <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_005_verifyLogoutFunctionality -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_004_searchUserByUsername -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:41 IST" name="postcondition" finished-at="2025-12-18T13:46:41 IST" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:41 IST" name="precondition" finished-at="2025-12-18T13:46:50 IST" duration-ms="9010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_006_verifyDashboardWidgets()[pri:5, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_006_verifyDashboardWidgets" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_004_searchUserByUsername(java.lang.String)[pri:4, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:50 IST" name="tc_004_searchUserByUsername" data-provider="usernameData" finished-at="2025-12-18T13:46:51 IST" duration-ms="1215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pratik]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_007_verifySearchTabEnabled is onTestStart]]>
+              <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_006_verifyDashboardWidgets -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_004_searchUserByUsername -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:51 IST" name="postcondition" finished-at="2025-12-18T13:46:51 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:46:51 IST" name="precondition" finished-at="2025-12-18T13:47:01 IST" duration-ms="9236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_007_verifySearchTabEnabled()[pri:6, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_007_verifySearchTabEnabled" finished-at="2025-12-17T23:18:27 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_004_searchUserByUsername(java.lang.String)[pri:4, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:01 IST" name="tc_004_searchUserByUsername" data-provider="usernameData" finished-at="2025-12-18T13:47:02 IST" duration-ms="1347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Unnati]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_008_verifySidebarToggle is onTestStart]]>
+              <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_007_verifySearchTabEnabled -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_004_searchUserByUsername -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:02 IST" name="postcondition" finished-at="2025-12-18T13:47:02 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:02 IST" name="precondition" finished-at="2025-12-18T13:47:13 IST" duration-ms="10565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_008_verifySidebarToggle()[pri:7, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_008_verifySidebarToggle" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_004_searchUserByUsername(java.lang.String)[pri:4, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:13 IST" name="tc_004_searchUserByUsername" data-provider="usernameData" finished-at="2025-12-18T13:47:14 IST" duration-ms="1251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dnyaneshwari]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
             <line>
-              <![CDATA[tc_009_verifyQuickLaunchOptions is onTestStart]]>
+              <![CDATA[tc_004_searchUserByUsername is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_008_verifySidebarToggle -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_004_searchUserByUsername -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:14 IST" name="postcondition" finished-at="2025-12-18T13:47:14 IST" duration-ms="229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:14 IST" name="precondition" finished-at="2025-12-18T13:47:24 IST" duration-ms="9269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_009_verifyQuickLaunchOptions()[pri:8, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_009_verifyQuickLaunchOptions" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_005_searchUserByUserRole()[pri:5, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:24 IST" name="tc_005_searchUserByUserRole" finished-at="2025-12-18T13:47:25 IST" duration-ms="1400" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_010_verifyHelpIconDisplayed is onTestStart]]>
+              <![CDATA[tc_005_searchUserByUserRole is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_009_verifyQuickLaunchOptions -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_005_searchUserByUserRole -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:25 IST" name="postcondition" finished-at="2025-12-18T13:47:25 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:25 IST" name="precondition" finished-at="2025-12-18T13:47:37 IST" duration-ms="11916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_010_verifyHelpIconDisplayed()[pri:9, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_010_verifyHelpIconDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_006_searchUserByEmployeeName()[pri:6, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:37 IST" name="tc_006_searchUserByEmployeeName" finished-at="2025-12-18T13:47:39 IST" duration-ms="1660" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_011_verifyDashboardFooter is onTestStart]]>
+              <![CDATA[tc_006_searchUserByEmployeeName is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_010_verifyHelpIconDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_006_searchUserByEmployeeName -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:39 IST" name="postcondition" finished-at="2025-12-18T13:47:39 IST" duration-ms="227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:39 IST" name="precondition" finished-at="2025-12-18T13:47:50 IST" duration-ms="10632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_011_verifyDashboardFooter()[pri:10, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_011_verifyDashboardFooter" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_007_searchUserByStatus()[pri:7, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:50 IST" name="tc_007_searchUserByStatus" finished-at="2025-12-18T13:47:51 IST" duration-ms="1387" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_012_verifyMyActionsLinksDisplayed is onTestStart]]>
+              <![CDATA[tc_007_searchUserByStatus is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_011_verifyDashboardFooter -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_007_searchUserByStatus -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:51 IST" name="postcondition" finished-at="2025-12-18T13:47:51 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:47:51 IST" name="precondition" finished-at="2025-12-18T13:48:07 IST" duration-ms="16299" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_012_verifyMyActionsLinksDisplayed()[pri:11, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_012_verifyMyActionsLinksDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_008_combinedSearchUserRoleAndStatus()[pri:8, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:07 IST" name="tc_008_combinedSearchUserRoleAndStatus" finished-at="2025-12-18T13:48:09 IST" duration-ms="1177" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_013_verifyQuickLaunchCardsEnabled is onTestStart]]>
+              <![CDATA[tc_008_combinedSearchUserRoleAndStatus is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_012_verifyMyActionsLinksDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_008_combinedSearchUserRoleAndStatus -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:09 IST" name="postcondition" finished-at="2025-12-18T13:48:09 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:09 IST" name="precondition" finished-at="2025-12-18T13:48:21 IST" duration-ms="12037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_013_verifyQuickLaunchCardsEnabled()[pri:12, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_013_verifyQuickLaunchCardsEnabled" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_009_verifyResetButton()[pri:9, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:21 IST" name="tc_009_verifyResetButton" finished-at="2025-12-18T13:48:22 IST" duration-ms="687" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_014_verifyTimeClockIconEnabled is onTestStart]]>
+              <![CDATA[tc_009_verifyResetButton is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_013_verifyQuickLaunchCardsEnabled -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_009_verifyResetButton -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:22 IST" name="postcondition" finished-at="2025-12-18T13:48:22 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:22 IST" name="precondition" finished-at="2025-12-18T13:48:31 IST" duration-ms="9718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_014_verifyTimeClockIconEnabled()[pri:13, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_014_verifyTimeClockIconEnabled" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_010_verifyAddUserNavigation()[pri:10, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:31 IST" name="tc_010_verifyAddUserNavigation" finished-at="2025-12-18T13:48:33 IST" duration-ms="1218" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_015_verifyEmployeeSubUnitsDisplayed is onTestStart]]>
+              <![CDATA[tc_010_verifyAddUserNavigation is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_014_verifyTimeClockIconEnabled -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_010_verifyAddUserNavigation -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:33 IST" name="postcondition" finished-at="2025-12-18T13:48:33 IST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:33 IST" name="precondition" finished-at="2025-12-18T13:48:42 IST" duration-ms="9504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_015_verifyEmployeeSubUnitsDisplayed()[pri:14, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_015_verifyEmployeeSubUnitsDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_011_verifyTableHeaderCheckbox()[pri:11, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:42 IST" name="tc_011_verifyTableHeaderCheckbox" finished-at="2025-12-18T13:48:44 IST" duration-ms="1791" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_016_verifyEmployeeLocationsDisplayed is onTestStart]]>
+              <![CDATA[tc_011_verifyTableHeaderCheckbox is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_015_verifyEmployeeSubUnitsDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_011_verifyTableHeaderCheckbox -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:44 IST" name="postcondition" finished-at="2025-12-18T13:48:44 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:44 IST" name="precondition" finished-at="2025-12-18T13:48:57 IST" duration-ms="12602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_016_verifyEmployeeLocationsDisplayed()[pri:15, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_016_verifyEmployeeLocationsDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_012_verifyEditFirstRecord()[pri:12, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:48:57 IST" name="tc_012_verifyEditFirstRecord" finished-at="2025-12-18T13:49:00 IST" duration-ms="3042" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[tc_017_verifyUpgradeButtonDisplayed is onTestStart]]>
+              <![CDATA[tc_012_verifyEditFirstRecord is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_016_verifyEmployeeLocationsDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_012_verifyEditFirstRecord -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:00 IST" name="postcondition" finished-at="2025-12-18T13:49:00 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="precondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:00 IST" name="precondition" finished-at="2025-12-18T13:49:12 IST" duration-ms="11397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="tc_017_verifyUpgradeButtonDisplayed()[pri:16, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="tc_017_verifyUpgradeButtonDisplayed" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="tc_013_verifyDeleteCancelFlow()[pri:13, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:12 IST" name="tc_013_verifyDeleteCancelFlow" finished-at="2025-12-18T13:49:13 IST" duration-ms="1625" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[onFinish]]>
+              <![CDATA[tc_013_verifyDeleteCancelFlow is onTestStart]]>
             </line>
           </reporter-output>
-        </test-method> <!-- tc_017_verifyUpgradeButtonDisplayed -->
-        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.DashboardTest@54d9d12d]" started-at="2025-12-17T23:18:27 IST" name="postcondition" finished-at="2025-12-17T23:18:27 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- tc_013_verifyDeleteCancelFlow -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:13 IST" name="postcondition" finished-at="2025-12-18T13:49:13 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-      </class> <!-- functionalTesting.DashboardTest -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:13 IST" name="precondition" finished-at="2025-12-18T13:49:23 IST" duration-ms="9217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_014_verifyDeleteConfirmFlow()[pri:14, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:23 IST" name="tc_014_verifyDeleteConfirmFlow" finished-at="2025-12-18T13:49:28 IST" duration-ms="5146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_014_verifyDeleteConfirmFlow is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_014_verifyDeleteConfirmFlow -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:28 IST" name="postcondition" finished-at="2025-12-18T13:49:29 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:29 IST" name="precondition" finished-at="2025-12-18T13:49:39 IST" duration-ms="10436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_015_verifyProfileDropdownOptions()[pri:15, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:39 IST" name="tc_015_verifyProfileDropdownOptions" finished-at="2025-12-18T13:49:41 IST" duration-ms="1320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_015_verifyProfileDropdownOptions is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_015_verifyProfileDropdownOptions -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:41 IST" name="postcondition" finished-at="2025-12-18T13:49:41 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:41 IST" name="precondition" finished-at="2025-12-18T13:49:51 IST" duration-ms="9888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_016_verifyHelpButton()[pri:16, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:51 IST" name="tc_016_verifyHelpButton" finished-at="2025-12-18T13:49:51 IST" duration-ms="583" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_016_verifyHelpButton is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_016_verifyHelpButton -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:51 IST" name="postcondition" finished-at="2025-12-18T13:49:51 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:49:51 IST" name="precondition" finished-at="2025-12-18T13:50:04 IST" duration-ms="12039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="tc_019_verifyFooterText()[pri:17, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:50:04 IST" name="tc_019_verifyFooterText" finished-at="2025-12-18T13:50:04 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[tc_019_verifyFooterText is onTestStart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_019_verifyFooterText -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:functionalTesting.AdminTest@38425407]" started-at="2025-12-18T13:50:04 IST" name="postcondition" finished-at="2025-12-18T13:50:04 IST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- functionalTesting.AdminTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

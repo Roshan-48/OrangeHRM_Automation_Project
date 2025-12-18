@@ -93,7 +93,7 @@ public class Admin {
 	@FindBy(css = "i[class='oxd-icon bi-question-lg']")
 	private WebElement help_button;
 
-	@FindBy(xpath = "(//div[@class='oxd-input-group__label-wrapper'])[4]")
+	@FindBy(xpath = "//label[text()='Username']/following::input[1]")
 	private WebElement search_username;
 
 	@FindBy(xpath = "//div[@class='oxd-select-text oxd-select-text--active']")
@@ -102,9 +102,9 @@ public class Admin {
 	@FindBy(xpath = "//label[text()='Employee Name']/following::input[1]")
 	private WebElement search_employeeName;
 
-	@FindBy(xpath = "(//div[@class='oxd-select-text oxd-select-text--active'])[2]")
+	@FindBy(xpath = "//label[text()='Status']/following::div[contains(@class,'oxd-select-text')][1]")
 	private WebElement search_status_dropdown;
-	
+
 	@FindBy(xpath = "//button[text()=' Reset ']")
 	private WebElement reset_button;
 	
@@ -114,7 +114,7 @@ public class Admin {
 	@FindBy(xpath = "(//button[contains(@class,'oxd-button--secondary')])[2]")
 	private WebElement add_button;
 	
-	@FindBy(xpath = "//div[@class='oxd-table-header']//input[@type='checkbox']")
+	@FindBy(xpath = "//div[@class='oxd-table-header']//i[contains(@class,'oxd-checkbox-input-icon')]")
 	private WebElement table_header_checkbox;
 	
 	@FindBy(xpath = "//div[@class='oxd-table-header']")
@@ -129,11 +129,23 @@ public class Admin {
 	@FindBy(xpath = "(//i[@class='oxd-icon bi-pencil-fill'])[1]")
 	private WebElement edit_firstRecord;
 	
-	@FindBy(xpath = "//i[@class='oxd-icon bi-trash oxd-button-icon']")
-	private WebElement confirm_delete;
-
-	@FindBy(xpath = "//button[text()=' No, Cancel ']")
+	@FindBy(xpath = "//div[contains(@class,'oxd-dialog-container')]")
+	private WebElement delete_popup;
+	
+	@FindBy(xpath = "//button[normalize-space()='No, Cancel']")
 	private WebElement cancel_delete;
+
+	@FindBy(xpath = "//button[normalize-space()='Yes, Delete']")
+	private WebElement confirm_delete;
+	
+	@FindBy(xpath = "//button[contains(@class,'oxd-button--label-danger')]")
+	private WebElement delete_selected_button;
+
+	@FindBy(xpath = "//button[.=' Yes, Delete ']")
+	private WebElement confirm_delete_selected;
+
+	@FindBy(xpath = "//button[.=' No, Cancel ']")
+	private WebElement cancel_delete_selected;
 	
 	@FindBy(xpath = "//a[text()='OrangeHRM, Inc']")
 	private WebElement footer_text;
@@ -305,6 +317,11 @@ public class Admin {
     public WebElement getDelete_firstRecord() {
         return delete_firstRecord;
     }
+    
+    public WebElement getDeletePop_delete() {
+        return delete_popup;
+    }
+    
 
     public WebElement getConfirm_delete() {
         return confirm_delete;
@@ -312,6 +329,18 @@ public class Admin {
 
     public WebElement getCancel_delete() {
         return cancel_delete;
+    }
+    
+    public WebElement getDelete_selected_button() {
+        return delete_selected_button;
+    }
+
+    public WebElement getConfirm_delete_selected() {
+        return confirm_delete_selected;
+    }
+
+    public WebElement getCancel_delete_selected() {
+        return cancel_delete_selected;
     }
     
 	public String getFooter_text() {

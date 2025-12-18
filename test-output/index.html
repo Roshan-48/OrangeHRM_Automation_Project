@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-skipped">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\rosha\AppData\Local\Temp\testng-eclipse--935349301\testng-customsuite.xml</span>
+                    <span>C:\Users\rosha\AppData\Local\Temp\testng-eclipse--160568162\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,101 +92,130 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods,  17 skipped,  </span>
+                    <span class="method-stats">21 methods, 1 failed,   20 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content skipped suite-Default_suite">
+                    <div class="method-list-content failed suite-Default_suite">
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_001_verifyDashboardUrl">tc_001_verifyDashboardUrl</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_003_verifyAdminMenus">tc_003_verifyAdminMenus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_001_verifyAdminPageLoaded">tc_001_verifyAdminPageLoaded</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_002_verifyDashboardHeader">tc_002_verifyDashboardHeader</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_002_verifyMainMenuNavigation">tc_002_verifyMainMenuNavigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_003_verifyMenuTabsDisplayed">tc_003_verifyMenuTabsDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_004_searchUserByUsername(Admin)">tc_004_searchUserByUsername(Admin)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_004_verifyProfileDropdownOptions">tc_004_verifyProfileDropdownOptions</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_004_searchUserByUsername(Roshan)">tc_004_searchUserByUsername(Roshan)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_005_verifyLogoutFunctionality">tc_005_verifyLogoutFunctionality</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_004_searchUserByUsername(Unnati)">tc_004_searchUserByUsername(Unnati)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_006_verifyDashboardWidgets">tc_006_verifyDashboardWidgets</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_004_searchUserByUsername(Dnyaneshwari)">tc_004_searchUserByUsername(Dnyaneshwari)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_007_verifySearchTabEnabled">tc_007_verifySearchTabEnabled</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_004_searchUserByUsername(Pratik)">tc_004_searchUserByUsername(Pratik)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_008_verifySidebarToggle">tc_008_verifySidebarToggle</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_005_searchUserByUserRole">tc_005_searchUserByUserRole</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_009_verifyQuickLaunchOptions">tc_009_verifyQuickLaunchOptions</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_006_searchUserByEmployeeName">tc_006_searchUserByEmployeeName</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_010_verifyHelpIconDisplayed">tc_010_verifyHelpIconDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_007_searchUserByStatus">tc_007_searchUserByStatus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_011_verifyDashboardFooter">tc_011_verifyDashboardFooter</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_008_combinedSearchUserRoleAndStatus">tc_008_combinedSearchUserRoleAndStatus</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_012_verifyMyActionsLinksDisplayed">tc_012_verifyMyActionsLinksDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_009_verifyResetButton">tc_009_verifyResetButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_013_verifyQuickLaunchCardsEnabled">tc_013_verifyQuickLaunchCardsEnabled</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_010_verifyAddUserNavigation">tc_010_verifyAddUserNavigation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_014_verifyTimeClockIconEnabled">tc_014_verifyTimeClockIconEnabled</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_011_verifyTableHeaderCheckbox">tc_011_verifyTableHeaderCheckbox</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_015_verifyEmployeeSubUnitsDisplayed">tc_015_verifyEmployeeSubUnitsDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_012_verifyEditFirstRecord">tc_012_verifyEditFirstRecord</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_016_verifyEmployeeLocationsDisplayed">tc_016_verifyEmployeeLocationsDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_013_verifyDeleteCancelFlow">tc_013_verifyDeleteCancelFlow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.DashboardTest" class="method navigator-link" hash-for-method="tc_017_verifyUpgradeButtonDisplayed">tc_017_verifyUpgradeButtonDisplayed</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_014_verifyDeleteConfirmFlow">tc_014_verifyDeleteConfirmFlow</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_015_verifyProfileDropdownOptions">tc_015_verifyProfileDropdownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_016_verifyHelpButton">tc_016_verifyHelpButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="functionalTesting.AdminTest" class="method navigator-link" hash-for-method="tc_019_verifyFooterText">tc_019_verifyFooterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -198,45 +227,26 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-skipped">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">functionalTesting.DashboardTest</span>
+              <img src="failed.png"/>
+              <span class="class-name">functionalTesting.AdminTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="tc_001_verifyDashboardUrl">
-                  </a> <!-- tc_001_verifyDashboardUrl -->
-                  <span class="method-name">tc_001_verifyDashboardUrl</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
+                  <a name="tc_003_verifyAdminMenus">
+                  </a> <!-- tc_003_verifyAdminMenus -->
+                  <span class="method-name">tc_003_verifyAdminMenus</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Nationalities&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
+	at functionalTesting.AdminTest.tc_003_verifyAdminMenus(AdminTest.java:43)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -259,23 +269,15 @@ Session ID: d16366e5a2314841a00053d40c07d572
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_002_verifyDashboardHeader">
-                  </a> <!-- tc_002_verifyDashboardHeader -->
-                  <span class="method-name">tc_002_verifyDashboardHeader</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Nationalities&apos;]&quot;}
   (Session info: chrome=143.0.7499.42)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
+Command: [bbecd7a8412b789a48c99d81b0d89b21, findElement {using=xpath, value=//span[text()=&apos;Nationalities&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58899}, goog:processID: 23220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58899/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bbecd7a8412b789a48c99d81b0d89b21
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -286,933 +288,181 @@ Session ID: d16366e5a2314841a00053d40c07d572
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_003_verifyMenuTabsDisplayed">
-                  </a> <!-- tc_003_verifyMenuTabsDisplayed -->
-                  <span class="method-name">tc_003_verifyMenuTabsDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_004_verifyProfileDropdownOptions">
-                  </a> <!-- tc_004_verifyProfileDropdownOptions -->
-                  <span class="method-name">tc_004_verifyProfileDropdownOptions</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_005_verifyLogoutFunctionality">
-                  </a> <!-- tc_005_verifyLogoutFunctionality -->
-                  <span class="method-name">tc_005_verifyLogoutFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_006_verifyDashboardWidgets">
-                  </a> <!-- tc_006_verifyDashboardWidgets -->
-                  <span class="method-name">tc_006_verifyDashboardWidgets</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_007_verifySearchTabEnabled">
-                  </a> <!-- tc_007_verifySearchTabEnabled -->
-                  <span class="method-name">tc_007_verifySearchTabEnabled</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_008_verifySidebarToggle">
-                  </a> <!-- tc_008_verifySidebarToggle -->
-                  <span class="method-name">tc_008_verifySidebarToggle</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_009_verifyQuickLaunchOptions">
-                  </a> <!-- tc_009_verifyQuickLaunchOptions -->
-                  <span class="method-name">tc_009_verifyQuickLaunchOptions</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_010_verifyHelpIconDisplayed">
-                  </a> <!-- tc_010_verifyHelpIconDisplayed -->
-                  <span class="method-name">tc_010_verifyHelpIconDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_011_verifyDashboardFooter">
-                  </a> <!-- tc_011_verifyDashboardFooter -->
-                  <span class="method-name">tc_011_verifyDashboardFooter</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_012_verifyMyActionsLinksDisplayed">
-                  </a> <!-- tc_012_verifyMyActionsLinksDisplayed -->
-                  <span class="method-name">tc_012_verifyMyActionsLinksDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_013_verifyQuickLaunchCardsEnabled">
-                  </a> <!-- tc_013_verifyQuickLaunchCardsEnabled -->
-                  <span class="method-name">tc_013_verifyQuickLaunchCardsEnabled</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_014_verifyTimeClockIconEnabled">
-                  </a> <!-- tc_014_verifyTimeClockIconEnabled -->
-                  <span class="method-name">tc_014_verifyTimeClockIconEnabled</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_015_verifyEmployeeSubUnitsDisplayed">
-                  </a> <!-- tc_015_verifyEmployeeSubUnitsDisplayed -->
-                  <span class="method-name">tc_015_verifyEmployeeSubUnitsDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_016_verifyEmployeeLocationsDisplayed">
-                  </a> <!-- tc_016_verifyEmployeeLocationsDisplayed -->
-                  <span class="method-name">tc_016_verifyEmployeeLocationsDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_017_verifyUpgradeButtonDisplayed">
-                  </a> <!-- tc_017_verifyUpgradeButtonDisplayed -->
-                  <span class="method-name">tc_017_verifyUpgradeButtonDisplayed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_INTERNET_DISCONNECTED
-  (Session info: chrome=143.0.7499.42)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d16366e5a2314841a00053d40c07d572, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53738}, goog:processID: 4260, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53738/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d16366e5a2314841a00053d40c07d572
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:301)
-	at com.crm.BaseClass.DashboardBase.precondition(DashboardBase.java:39)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	... 28 more
 
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-skipped -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">functionalTesting.AdminTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_001_verifyAdminPageLoaded">
+                  </a> <!-- tc_001_verifyAdminPageLoaded -->
+                  <span class="method-name">tc_001_verifyAdminPageLoaded</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_002_verifyMainMenuNavigation">
+                  </a> <!-- tc_002_verifyMainMenuNavigation -->
+                  <span class="method-name">tc_002_verifyMainMenuNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_004_searchUserByUsername(Admin)">
+                  </a> <!-- tc_004_searchUserByUsername(Admin) -->
+                  <span class="method-name">tc_004_searchUserByUsername</span>
+                  <span class="parameters">(Admin)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_004_searchUserByUsername(Roshan)">
+                  </a> <!-- tc_004_searchUserByUsername(Roshan) -->
+                  <span class="method-name">tc_004_searchUserByUsername</span>
+                  <span class="parameters">(Roshan)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_004_searchUserByUsername(Unnati)">
+                  </a> <!-- tc_004_searchUserByUsername(Unnati) -->
+                  <span class="method-name">tc_004_searchUserByUsername</span>
+                  <span class="parameters">(Unnati)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_004_searchUserByUsername(Dnyaneshwari)">
+                  </a> <!-- tc_004_searchUserByUsername(Dnyaneshwari) -->
+                  <span class="method-name">tc_004_searchUserByUsername</span>
+                  <span class="parameters">(Dnyaneshwari)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_004_searchUserByUsername(Pratik)">
+                  </a> <!-- tc_004_searchUserByUsername(Pratik) -->
+                  <span class="method-name">tc_004_searchUserByUsername</span>
+                  <span class="parameters">(Pratik)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_005_searchUserByUserRole">
+                  </a> <!-- tc_005_searchUserByUserRole -->
+                  <span class="method-name">tc_005_searchUserByUserRole</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_006_searchUserByEmployeeName">
+                  </a> <!-- tc_006_searchUserByEmployeeName -->
+                  <span class="method-name">tc_006_searchUserByEmployeeName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_007_searchUserByStatus">
+                  </a> <!-- tc_007_searchUserByStatus -->
+                  <span class="method-name">tc_007_searchUserByStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_008_combinedSearchUserRoleAndStatus">
+                  </a> <!-- tc_008_combinedSearchUserRoleAndStatus -->
+                  <span class="method-name">tc_008_combinedSearchUserRoleAndStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_009_verifyResetButton">
+                  </a> <!-- tc_009_verifyResetButton -->
+                  <span class="method-name">tc_009_verifyResetButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_010_verifyAddUserNavigation">
+                  </a> <!-- tc_010_verifyAddUserNavigation -->
+                  <span class="method-name">tc_010_verifyAddUserNavigation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_011_verifyTableHeaderCheckbox">
+                  </a> <!-- tc_011_verifyTableHeaderCheckbox -->
+                  <span class="method-name">tc_011_verifyTableHeaderCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_012_verifyEditFirstRecord">
+                  </a> <!-- tc_012_verifyEditFirstRecord -->
+                  <span class="method-name">tc_012_verifyEditFirstRecord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_013_verifyDeleteCancelFlow">
+                  </a> <!-- tc_013_verifyDeleteCancelFlow -->
+                  <span class="method-name">tc_013_verifyDeleteCancelFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_014_verifyDeleteConfirmFlow">
+                  </a> <!-- tc_014_verifyDeleteConfirmFlow -->
+                  <span class="method-name">tc_014_verifyDeleteConfirmFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_015_verifyProfileDropdownOptions">
+                  </a> <!-- tc_015_verifyProfileDropdownOptions -->
+                  <span class="method-name">tc_015_verifyProfileDropdownOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_016_verifyHelpButton">
+                  </a> <!-- tc_016_verifyHelpButton -->
+                  <span class="method-name">tc_016_verifyHelpButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_019_verifyFooterText">
+                  </a> <!-- tc_019_verifyFooterText -->
+                  <span class="method-name">tc_019_verifyFooterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rosha\AppData\Local\Temp\testng-eclipse--935349301\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\rosha\AppData\Local\Temp\testng-eclipse--160568162\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -1221,7 +471,7 @@ Session ID: d16366e5a2314841a00053d40c07d572
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;functionalTesting.DashboardTest&quot;/&gt;
+      &lt;class name=&quot;functionalTesting.AdminTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -1261,80 +511,96 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(17);
+data.addRows(21);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'tc_007_verifySearchTabEnabled')
-data.setCell(0, 2, 'functionalTesting.DashboardTest')
-data.setCell(0, 3, 1);
+data.setCell(0, 1, 'tc_003_verifyAdminMenus')
+data.setCell(0, 2, 'functionalTesting.AdminTest')
+data.setCell(0, 3, 30844);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_004_verifyProfileDropdownOptions')
-data.setCell(1, 2, 'functionalTesting.DashboardTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'tc_002_verifyMainMenuNavigation')
+data.setCell(1, 2, 'functionalTesting.AdminTest')
+data.setCell(1, 3, 9686);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc_015_verifyEmployeeSubUnitsDisplayed')
-data.setCell(2, 2, 'functionalTesting.DashboardTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'tc_014_verifyDeleteConfirmFlow')
+data.setCell(2, 2, 'functionalTesting.AdminTest')
+data.setCell(2, 3, 5146);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'tc_005_verifyLogoutFunctionality')
-data.setCell(3, 2, 'functionalTesting.DashboardTest')
-data.setCell(3, 3, 0);
+data.setCell(3, 1, 'tc_012_verifyEditFirstRecord')
+data.setCell(3, 2, 'functionalTesting.AdminTest')
+data.setCell(3, 3, 3042);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'tc_012_verifyMyActionsLinksDisplayed')
-data.setCell(4, 2, 'functionalTesting.DashboardTest')
-data.setCell(4, 3, 0);
+data.setCell(4, 1, 'tc_011_verifyTableHeaderCheckbox')
+data.setCell(4, 2, 'functionalTesting.AdminTest')
+data.setCell(4, 3, 1791);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'tc_003_verifyMenuTabsDisplayed')
-data.setCell(5, 2, 'functionalTesting.DashboardTest')
-data.setCell(5, 3, 0);
+data.setCell(5, 1, 'tc_006_searchUserByEmployeeName')
+data.setCell(5, 2, 'functionalTesting.AdminTest')
+data.setCell(5, 3, 1660);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'tc_013_verifyQuickLaunchCardsEnabled')
-data.setCell(6, 2, 'functionalTesting.DashboardTest')
-data.setCell(6, 3, 0);
+data.setCell(6, 1, 'tc_013_verifyDeleteCancelFlow')
+data.setCell(6, 2, 'functionalTesting.AdminTest')
+data.setCell(6, 3, 1625);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'tc_002_verifyDashboardHeader')
-data.setCell(7, 2, 'functionalTesting.DashboardTest')
-data.setCell(7, 3, 0);
+data.setCell(7, 1, 'tc_005_searchUserByUserRole')
+data.setCell(7, 2, 'functionalTesting.AdminTest')
+data.setCell(7, 3, 1400);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'tc_006_verifyDashboardWidgets')
-data.setCell(8, 2, 'functionalTesting.DashboardTest')
-data.setCell(8, 3, 0);
+data.setCell(8, 1, 'tc_007_searchUserByStatus')
+data.setCell(8, 2, 'functionalTesting.AdminTest')
+data.setCell(8, 3, 1387);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'tc_017_verifyUpgradeButtonDisplayed')
-data.setCell(9, 2, 'functionalTesting.DashboardTest')
-data.setCell(9, 3, 0);
+data.setCell(9, 1, 'tc_004_searchUserByUsername')
+data.setCell(9, 2, 'functionalTesting.AdminTest')
+data.setCell(9, 3, 1347);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'tc_014_verifyTimeClockIconEnabled')
-data.setCell(10, 2, 'functionalTesting.DashboardTest')
-data.setCell(10, 3, 0);
+data.setCell(10, 1, 'tc_015_verifyProfileDropdownOptions')
+data.setCell(10, 2, 'functionalTesting.AdminTest')
+data.setCell(10, 3, 1320);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'tc_009_verifyQuickLaunchOptions')
-data.setCell(11, 2, 'functionalTesting.DashboardTest')
-data.setCell(11, 3, 0);
+data.setCell(11, 1, 'tc_004_searchUserByUsername')
+data.setCell(11, 2, 'functionalTesting.AdminTest')
+data.setCell(11, 3, 1251);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'tc_011_verifyDashboardFooter')
-data.setCell(12, 2, 'functionalTesting.DashboardTest')
-data.setCell(12, 3, 0);
+data.setCell(12, 1, 'tc_010_verifyAddUserNavigation')
+data.setCell(12, 2, 'functionalTesting.AdminTest')
+data.setCell(12, 3, 1218);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'tc_008_verifySidebarToggle')
-data.setCell(13, 2, 'functionalTesting.DashboardTest')
-data.setCell(13, 3, 0);
+data.setCell(13, 1, 'tc_004_searchUserByUsername')
+data.setCell(13, 2, 'functionalTesting.AdminTest')
+data.setCell(13, 3, 1215);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'tc_001_verifyDashboardUrl')
-data.setCell(14, 2, 'functionalTesting.DashboardTest')
-data.setCell(14, 3, 0);
+data.setCell(14, 1, 'tc_008_combinedSearchUserRoleAndStatus')
+data.setCell(14, 2, 'functionalTesting.AdminTest')
+data.setCell(14, 3, 1177);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'tc_016_verifyEmployeeLocationsDisplayed')
-data.setCell(15, 2, 'functionalTesting.DashboardTest')
-data.setCell(15, 3, 0);
+data.setCell(15, 1, 'tc_004_searchUserByUsername')
+data.setCell(15, 2, 'functionalTesting.AdminTest')
+data.setCell(15, 3, 998);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'tc_010_verifyHelpIconDisplayed')
-data.setCell(16, 2, 'functionalTesting.DashboardTest')
-data.setCell(16, 3, 0);
+data.setCell(16, 1, 'tc_004_searchUserByUsername')
+data.setCell(16, 2, 'functionalTesting.AdminTest')
+data.setCell(16, 3, 985);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc_019_verifyFooterText')
+data.setCell(17, 2, 'functionalTesting.AdminTest')
+data.setCell(17, 3, 716);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc_009_verifyResetButton')
+data.setCell(18, 2, 'functionalTesting.AdminTest')
+data.setCell(18, 3, 687);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc_001_verifyAdminPageLoaded')
+data.setCell(19, 2, 'functionalTesting.AdminTest')
+data.setCell(19, 3, 586);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc_016_verifyHelpButton')
+data.setCell(20, 2, 'functionalTesting.AdminTest')
+data.setCell(20, 3, 583);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 ms</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -1346,105 +612,129 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_015_verifyEmployeeSubUnitsDisplayed</span>
+              <span class="reporter-method-name">tc_004_searchUserByUsername(Admin)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_016_verifyEmployeeLocationsDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_004_searchUserByUsername is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_005_verifyLogoutFunctionality</span>
+              <span class="reporter-method-name">tc_014_verifyDeleteConfirmFlow</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_006_verifyDashboardWidgets is onTestStart</span>
+                <span class="reporter-method-output">tc_014_verifyDeleteConfirmFlow is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_012_verifyMyActionsLinksDisplayed</span>
+              <span class="reporter-method-name">tc_004_searchUserByUsername(Roshan)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_013_verifyQuickLaunchCardsEnabled is onTestStart</span>
+                <span class="reporter-method-output">tc_004_searchUserByUsername is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_003_verifyMenuTabsDisplayed</span>
+              <span class="reporter-method-name">tc_004_searchUserByUsername(Unnati)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_004_verifyProfileDropdownOptions is onTestStart</span>
+                <span class="reporter-method-output">tc_004_searchUserByUsername is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_013_verifyQuickLaunchCardsEnabled</span>
+              <span class="reporter-method-name">tc_004_searchUserByUsername(Dnyaneshwari)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_014_verifyTimeClockIconEnabled is onTestStart</span>
+                <span class="reporter-method-output">tc_004_searchUserByUsername is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_002_verifyDashboardHeader</span>
+              <span class="reporter-method-name">tc_012_verifyEditFirstRecord</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_003_verifyMenuTabsDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_012_verifyEditFirstRecord is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_006_verifyDashboardWidgets</span>
+              <span class="reporter-method-name">tc_002_verifyMainMenuNavigation</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_007_verifySearchTabEnabled is onTestStart</span>
+                <span class="reporter-method-output">tc_002_verifyMainMenuNavigation is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_017_verifyUpgradeButtonDisplayed</span>
+              <span class="reporter-method-name">tc_006_searchUserByEmployeeName</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">onFinish</span>
+                <span class="reporter-method-output">tc_006_searchUserByEmployeeName is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_014_verifyTimeClockIconEnabled</span>
+              <span class="reporter-method-name">tc_004_searchUserByUsername(Pratik)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_015_verifyEmployeeSubUnitsDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_004_searchUserByUsername is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_009_verifyQuickLaunchOptions</span>
+              <span class="reporter-method-name">tc_008_combinedSearchUserRoleAndStatus</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_010_verifyHelpIconDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_008_combinedSearchUserRoleAndStatus is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_011_verifyDashboardFooter</span>
+              <span class="reporter-method-name">tc_019_verifyFooterText</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_012_verifyMyActionsLinksDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_019_verifyFooterText is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_008_verifySidebarToggle</span>
+              <span class="reporter-method-name">tc_005_searchUserByUserRole</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_009_verifyQuickLaunchOptions is onTestStart</span>
+                <span class="reporter-method-output">tc_005_searchUserByUserRole is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_001_verifyDashboardUrl</span>
+              <span class="reporter-method-name">tc_009_verifyResetButton</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_002_verifyDashboardHeader is onTestStart</span>
+                <span class="reporter-method-output">tc_009_verifyResetButton is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_007_verifySearchTabEnabled</span>
+              <span class="reporter-method-name">tc_015_verifyProfileDropdownOptions</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_008_verifySidebarToggle is onTestStart</span>
+                <span class="reporter-method-output">tc_015_verifyProfileDropdownOptions is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_016_verifyEmployeeLocationsDisplayed</span>
+              <span class="reporter-method-name">tc_007_searchUserByStatus</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_017_verifyUpgradeButtonDisplayed is onTestStart</span>
+                <span class="reporter-method-output">tc_007_searchUserByStatus is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_004_verifyProfileDropdownOptions</span>
+              <span class="reporter-method-name">tc_016_verifyHelpButton</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_005_verifyLogoutFunctionality is onTestStart</span>
+                <span class="reporter-method-output">tc_016_verifyHelpButton is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">tc_010_verifyHelpIconDisplayed</span>
+              <span class="reporter-method-name">tc_013_verifyDeleteCancelFlow</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">tc_011_verifyDashboardFooter is onTestStart</span>
+                <span class="reporter-method-output">tc_013_verifyDeleteCancelFlow is onTestStart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc_001_verifyAdminPageLoaded</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">tc_001_verifyAdminPageLoaded is onTestStart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc_011_verifyTableHeaderCheckbox</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">tc_011_verifyTableHeaderCheckbox is onTestStart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc_010_verifyAddUserNavigation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">tc_010_verifyAddUserNavigation is onTestStart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">tc_003_verifyAdminMenus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">tc_003_verifyAdminMenus is onTestStart</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -1462,77 +752,261 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">functionalTesting.DashboardTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">functionalTesting.AdminTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">precondition</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_001_verifyAdminPageLoaded</span>
+                <span class="method-start">12832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">13427 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2294 ms</span>
+                <span class="method-start">13649 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_002_verifyMainMenuNavigation</span>
+                <span class="method-start">28277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">37966 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2307 ms</span>
+                <span class="method-start">38175 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_003_verifyAdminMenus</span>
+                <span class="method-start">51717 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">82776 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2319 ms</span>
+                <span class="method-start">83867 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_004_searchUserByUsername(Admin)</span>
+                <span class="method-start">97104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">98091 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2330 ms</span>
+                <span class="method-start">98268 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_004_searchUserByUsername(Roshan)</span>
+                <span class="method-start">107789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">108790 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2340 ms</span>
+                <span class="method-start">108966 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_004_searchUserByUsername(Pratik)</span>
+                <span class="method-start">117976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">119193 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2351 ms</span>
+                <span class="method-start">119393 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_004_searchUserByUsername(Unnati)</span>
+                <span class="method-start">128629 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">129978 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2361 ms</span>
+                <span class="method-start">130180 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_004_searchUserByUsername(Dnyaneshwari)</span>
+                <span class="method-start">140745 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">142003 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2373 ms</span>
+                <span class="method-start">142234 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_005_searchUserByUserRole</span>
+                <span class="method-start">151503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">152905 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2380 ms</span>
+                <span class="method-start">153088 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_006_searchUserByEmployeeName</span>
+                <span class="method-start">165004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">166668 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2389 ms</span>
+                <span class="method-start">166897 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_007_searchUserByStatus</span>
+                <span class="method-start">177530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">178918 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2396 ms</span>
+                <span class="method-start">179124 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_008_combinedSearchUserRoleAndStatus</span>
+                <span class="method-start">195423 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">196602 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2405 ms</span>
+                <span class="method-start">196786 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_009_verifyResetButton</span>
+                <span class="method-start">208823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">209512 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2413 ms</span>
+                <span class="method-start">209708 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_010_verifyAddUserNavigation</span>
+                <span class="method-start">219426 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">220646 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2422 ms</span>
+                <span class="method-start">220830 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_011_verifyTableHeaderCheckbox</span>
+                <span class="method-start">230334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">232127 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2429 ms</span>
+                <span class="method-start">232331 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_012_verifyEditFirstRecord</span>
+                <span class="method-start">244934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">247977 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">precondition</span>
-                <span class="method-start">2436 ms</span>
+                <span class="method-start">248176 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_013_verifyDeleteCancelFlow</span>
+                <span class="method-start">259573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">261200 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">261402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_014_verifyDeleteConfirmFlow</span>
+                <span class="method-start">270620 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">275767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">276813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_015_verifyProfileDropdownOptions</span>
+                <span class="method-start">287249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">288570 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">288771 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_016_verifyHelpButton</span>
+                <span class="method-start">298659 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">299243 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">precondition</span>
+                <span class="method-start">299444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_019_verifyFooterText</span>
+                <span class="method-start">311483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postcondition</span>
+                <span class="method-start">312199 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

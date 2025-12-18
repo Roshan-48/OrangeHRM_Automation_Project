@@ -33,7 +33,7 @@ public class LoginBase {
 		else {
 			driver = new ChromeDriver();
 		}
-
+        DriverManager.setDriver(driver);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(url);
@@ -42,5 +42,6 @@ public class LoginBase {
 	@AfterMethod
 	public void postcondition() {
 		driver.quit();
+		DriverManager.unload();
 	}
 }	
