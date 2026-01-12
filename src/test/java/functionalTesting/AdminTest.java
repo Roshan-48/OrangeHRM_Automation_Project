@@ -165,7 +165,7 @@ public class AdminTest extends AdminBase {
 	    }
 	  
 	    @Test(priority = 17)
-	    public void tc_019_verifyFooterText() {
+	    public void tc_017_verifyFooterText() {
 	        Admin admin = new Admin(driver);
 	        assertTrue(admin.getFooter_text().contains("OrangeHRM"),"Footer text mismatch");
 	    }

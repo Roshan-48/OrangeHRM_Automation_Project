@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="functionalTesting.AdminTest">
+      <class name="functionalTesting.LoginTest">
         <methods>
-          <include name="precondition"/>
           <include name="postcondition"/>
-          <include name="tc_003_verifyAdminMenus"/>
+          <include name="tc_009_verifyErrorMessageText" invocation-numbers="0 3 4"/>
+          <include name="precondition"/>
         </methods>
-      </class> <!-- functionalTesting.AdminTest -->
+      </class> <!-- functionalTesting.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

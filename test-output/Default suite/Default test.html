@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Dec 18 13:44:52 IST 2025</td>
+<td>Started on:</td><td>Fri Jan 02 13:49:27 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>312 seconds (312781 ms)</td>
+<tr><td>Total time:</td><td>246 seconds (246558 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,152 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_003_verifyAdminMenus()'><b>tc_003_verifyAdminMenus</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-727818265" onClick='toggleBox("Output-727818265", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-727818265" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-727818265">
-tc_003_verifyAdminMenus is onTestStart<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Nationalities&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-	at functionalTesting.AdminTest.tc_003_verifyAdminMenus(AdminTest.java:43)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Nationalities&apos;]&quot;}
-  (Session info: chrome=143.0.7499.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bbecd7a8412b789a48c99d81b0d89b21, findElement {using=xpath, value=//span[text()=&apos;Nationalities&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58899}, goog:processID: 23220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58899/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbecd7a8412b789a48c99d81b0d89b21
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 28 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace727818265", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace727818265'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[text()=&apos;Nationalities&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.crm.SeleniumUtility.WaitFactory.waitForVisibility(WaitFactory.java:16)
-	at functionalTesting.AdminTest.tc_003_verifyAdminMenus(AdminTest.java:43)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Nationalities&apos;]&quot;}
-  (Session info: chrome=143.0.7499.42)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [bbecd7a8412b789a48c99d81b0d89b21, findElement {using=xpath, value=//span[text()=&apos;Nationalities&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.42, chrome: {chromedriverVersion: 143.0.7499.146 (c1224fc40c9..., userDataDir: C:\Users\rosha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58899}, goog:processID: 23220, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58899/devtoo..., se:cdpVersion: 143.0.7499.42, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bbecd7a8412b789a48c99d81b0d89b21
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 28 more
-</pre></div></td>
-<td>30</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -222,245 +76,497 @@ Session ID: bbecd7a8412b789a48c99d81b0d89b21
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_004_searchUserByUsername()'><b>tc_004_searchUserByUsername</b><br>Test class: functionalTesting.AdminTest<br>Parameters: Admin<br/>
-<a href="#Output-484187068" onClick='toggleBox("Output-484187068", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_007_verifyForgotPasswordLink()'><b>tc_007_verifyForgotPasswordLink</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1931008760" onClick='toggleBox("Output-1931008760", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-484187068" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-484187068">
-tc_004_searchUserByUsername is onTestStart<br/>
+<a href="#Output-1931008760" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1931008760">
+tc_007_verifyForgotPasswordLink is onTestStart<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_014_verifyDeleteConfirmFlow()'><b>tc_014_verifyDeleteConfirmFlow</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1597986815" onClick='toggleBox("Output-1597986815", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: wrongUser, wrong123, Invalid<br/>
+<a href="#Output-728370857" onClick='toggleBox("Output-728370857", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1597986815" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1597986815">
-tc_014_verifyDeleteConfirmFlow is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>5</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_004_searchUserByUsername()'><b>tc_004_searchUserByUsername</b><br>Test class: functionalTesting.AdminTest<br>Parameters: Roshan<br/>
-<a href="#Output-765551203" onClick='toggleBox("Output-765551203", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-765551203" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-765551203">
-tc_004_searchUserByUsername is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_004_searchUserByUsername()'><b>tc_004_searchUserByUsername</b><br>Test class: functionalTesting.AdminTest<br>Parameters: Unnati<br/>
-<a href="#Output-1044174590" onClick='toggleBox("Output-1044174590", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1044174590" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1044174590">
-tc_004_searchUserByUsername is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_004_searchUserByUsername()'><b>tc_004_searchUserByUsername</b><br>Test class: functionalTesting.AdminTest<br>Parameters: Dnyaneshwari<br/>
-<a href="#Output-115139998" onClick='toggleBox("Output-115139998", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-115139998" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-115139998">
-tc_004_searchUserByUsername is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_012_verifyEditFirstRecord()'><b>tc_012_verifyEditFirstRecord</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-2130782499" onClick='toggleBox("Output-2130782499", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2130782499" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2130782499">
-tc_012_verifyEditFirstRecord is onTestStart<br/>
+<a href="#Output-728370857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728370857">
+tc_008_validateLoginBehavior is onTestStart<br/>
 </div>
 </td>
 <td></td>
 <td>3</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_002_verifyMainMenuNavigation()'><b>tc_002_verifyMainMenuNavigation</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-801142660" onClick='toggleBox("Output-801142660", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_001_verifyLoginPage()'><b>tc_001_verifyLoginPage</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-670283478" onClick='toggleBox("Output-670283478", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-801142660" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-801142660">
-tc_002_verifyMainMenuNavigation is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>9</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_006_searchUserByEmployeeName()'><b>tc_006_searchUserByEmployeeName</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1343838143" onClick='toggleBox("Output-1343838143", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1343838143" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1343838143">
-tc_006_searchUserByEmployeeName is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_004_searchUserByUsername()'><b>tc_004_searchUserByUsername</b><br>Test class: functionalTesting.AdminTest<br>Parameters: Pratik<br/>
-<a href="#Output-1259065345" onClick='toggleBox("Output-1259065345", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1259065345" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1259065345">
-tc_004_searchUserByUsername is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_008_combinedSearchUserRoleAndStatus()'><b>tc_008_combinedSearchUserRoleAndStatus</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1508333131" onClick='toggleBox("Output-1508333131", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1508333131" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1508333131">
-tc_008_combinedSearchUserRoleAndStatus is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_019_verifyFooterText()'><b>tc_019_verifyFooterText</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-325461513" onClick='toggleBox("Output-325461513", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-325461513" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-325461513">
-tc_019_verifyFooterText is onTestStart<br/>
+<a href="#Output-670283478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-670283478">
+tc_001_verifyLoginPage is onTestStart<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_005_searchUserByUserRole()'><b>tc_005_searchUserByUserRole</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1233933149" onClick='toggleBox("Output-1233933149", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: ADMIN, admin123, Valid<br/>
+<a href="#Output-296954388" onClick='toggleBox("Output-296954388", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1233933149" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1233933149">
-tc_005_searchUserByUserRole is onTestStart<br/>
+<a href="#Output-296954388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-296954388">
+tc_008_validateLoginBehavior is onTestStart<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_009_verifyResetButton()'><b>tc_009_verifyResetButton</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-989030690" onClick='toggleBox("Output-989030690", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin , wrong123, Invalid<br/>
+<a href="#Output-105019819" onClick='toggleBox("Output-105019819", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-989030690" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-989030690">
-tc_009_verifyResetButton is onTestStart<br/>
+<a href="#Output-105019819" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-105019819">
+tc_009_verifyErrorMessageText is onTestStart<br/>
 </div>
 </td>
 <td></td>
-<td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>4</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_015_verifyProfileDropdownOptions()'><b>tc_015_verifyProfileDropdownOptions</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-492135521" onClick='toggleBox("Output-492135521", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, admin123@, Invalid<br/>
+<a href="#Output-62085016" onClick='toggleBox("Output-62085016", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-492135521" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-492135521">
-tc_015_verifyProfileDropdownOptions is onTestStart<br/>
+<a href="#Output-62085016" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-62085016">
+tc_008_validateLoginBehavior is onTestStart<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_007_searchUserByStatus()'><b>tc_007_searchUserByStatus</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-756222660" onClick='toggleBox("Output-756222660", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_012_verifyFooterText()'><b>tc_012_verifyFooterText</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1502050508" onClick='toggleBox("Output-1502050508", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-756222660" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-756222660">
-tc_007_searchUserByStatus is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_016_verifyHelpButton()'><b>tc_016_verifyHelpButton</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-789998945" onClick='toggleBox("Output-789998945", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-789998945" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-789998945">
-tc_016_verifyHelpButton is onTestStart<br/>
+<a href="#Output-1502050508" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1502050508">
+tc_012_verifyFooterText is onTestStart<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_013_verifyDeleteCancelFlow()'><b>tc_013_verifyDeleteCancelFlow</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1045101840" onClick='toggleBox("Output-1045101840", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_003_verifyPasswordPlaceholder()'><b>tc_003_verifyPasswordPlaceholder</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1243350866" onClick='toggleBox("Output-1243350866", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1045101840" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1045101840">
-tc_013_verifyDeleteCancelFlow is onTestStart<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
-<tr>
-<td title='functionalTesting.AdminTest.tc_001_verifyAdminPageLoaded()'><b>tc_001_verifyAdminPageLoaded</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-962700314" onClick='toggleBox("Output-962700314", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-962700314" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-962700314">
-tc_001_verifyAdminPageLoaded is onTestStart<br/>
+<a href="#Output-1243350866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1243350866">
+tc_003_verifyPasswordPlaceholder is onTestStart<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_011_verifyTableHeaderCheckbox()'><b>tc_011_verifyTableHeaderCheckbox</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1141393171" onClick='toggleBox("Output-1141393171", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin , wrong123, Invalid<br/>
+<a href="#Output-1720067573" onClick='toggleBox("Output-1720067573", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1141393171" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1141393171">
-tc_011_verifyTableHeaderCheckbox is onTestStart<br/>
+<a href="#Output-1720067573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1720067573">
+tc_008_validateLoginBehavior is onTestStart<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 <tr>
-<td title='functionalTesting.AdminTest.tc_010_verifyAddUserNavigation()'><b>tc_010_verifyAddUserNavigation</b><br>Test class: functionalTesting.AdminTest<br/>
-<a href="#Output-1043154163" onClick='toggleBox("Output-1043154163", this, "Show output", "Hide output");'>Show output</a>
+<td title='functionalTesting.LoginTest.tc_004_verifyUsernamePlaceholder()'><b>tc_004_verifyUsernamePlaceholder</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-995531141" onClick='toggleBox("Output-995531141", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1043154163" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1043154163">
-tc_010_verifyAddUserNavigation is onTestStart<br/>
+<a href="#Output-995531141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-995531141">
+tc_004_verifyUsernamePlaceholder is onTestStart<br/>
 </div>
 </td>
 <td></td>
-<td>1</td>
-<td>functionalTesting.AdminTest@38425407</td></tr>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_002_verifyUsernamePlaceholder()'><b>tc_002_verifyUsernamePlaceholder</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1366581056" onClick='toggleBox("Output-1366581056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1366581056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1366581056">
+tc_002_verifyUsernamePlaceholder is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, admin123, Valid<br/>
+<a href="#Output-111819772" onClick='toggleBox("Output-111819772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111819772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111819772">
+tc_008_validateLoginBehavior is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, admin123@, Invalid<br/>
+<a href="#Output-2049602706" onClick='toggleBox("Output-2049602706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2049602706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2049602706">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, Admin123, Invalid<br/>
+<a href="#Output-855769947" onClick='toggleBox("Output-855769947", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-855769947" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-855769947">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_011_verifySocialIconsDisplayed()'><b>tc_011_verifySocialIconsDisplayed</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-740982099" onClick='toggleBox("Output-740982099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-740982099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-740982099">
+tc_011_verifySocialIconsDisplayed is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: wrongUser, wrong123, Invalid<br/>
+<a href="#Output-157990006" onClick='toggleBox("Output-157990006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-157990006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-157990006">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_005_verifyPasswordPlaceholder()'><b>tc_005_verifyPasswordPlaceholder</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1754451055" onClick='toggleBox("Output-1754451055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1754451055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1754451055">
+tc_005_verifyPasswordPlaceholder is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_006_verifyLoginButtonEnabled()'><b>tc_006_verifyLoginButtonEnabled</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-1992630936" onClick='toggleBox("Output-1992630936", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1992630936" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1992630936">
+tc_006_verifyLoginButtonEnabled is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: admin, admin123, Valid<br/>
+<a href="#Output-1710180594" onClick='toggleBox("Output-1710180594", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1710180594" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1710180594">
+tc_008_validateLoginBehavior is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, Admin123, Invalid<br/>
+<a href="#Output-1970518510" onClick='toggleBox("Output-1970518510", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1970518510" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1970518510">
+tc_008_validateLoginBehavior is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, 'OR '1'='1, Invalid<br/>
+<a href="#Output-976935143" onClick='toggleBox("Output-976935143", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-976935143" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-976935143">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_008_validateLoginBehavior()'><b>tc_008_validateLoginBehavior</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, 'OR '1'='1, Invalid<br/>
+<a href="#Output-1620573353" onClick='toggleBox("Output-1620573353", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620573353" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620573353">
+tc_008_validateLoginBehavior is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_010_verifyErrorForEmptyCredentials()'><b>tc_010_verifyErrorForEmptyCredentials</b><br>Test class: functionalTesting.LoginTest<br/>
+<a href="#Output-890054387" onClick='toggleBox("Output-890054387", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-890054387" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-890054387">
+tc_010_verifyErrorForEmptyCredentials is onTestStart<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: admin, admin123, Valid<br/>
+<a href="#Output-1405999864" onClick='toggleBox("Output-1405999864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1405999864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1405999864">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1405999864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1405999864'><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: Admin, admin123, Valid<br/>
+<a href="#Output-1526901124" onClick='toggleBox("Output-1526901124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526901124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526901124">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1526901124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1526901124'><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
+<tr>
+<td title='functionalTesting.LoginTest.tc_009_verifyErrorMessageText()'><b>tc_009_verifyErrorMessageText</b><br>Test class: functionalTesting.LoginTest<br>Parameters: ADMIN, admin123, Valid<br/>
+<a href="#Output-1418286721" onClick='toggleBox("Output-1418286721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1418286721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1418286721">
+tc_009_verifyErrorMessageText is onTestStart<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1418286721", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1418286721'><pre>org.testng.SkipException: Skipping valid login case
+	at functionalTesting.LoginTest.tc_009_verifyErrorMessageText(LoginTest.java:84)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>functionalTesting.LoginTest@22555ebf</td></tr>
 </table><p>
 </body>
 </html>
